@@ -1,0 +1,19 @@
+.menu {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    display: flex;
+}
+.optiune {
+    flex: 1;
+    padding: 15px;
+    border: 12px;
+}
+img {
+    width: 300px;
+    border-radius: 50%;
+}
+body {
+    background-color: azure;
+}
