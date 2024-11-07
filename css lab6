@@ -1,0 +1,98 @@
+<!--HTML-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Laborator 6</h1>
+    <button class="button-25">Buton bun, bun... si ieftin</button>
+    <button>Buton "mai si dai mai si ei"</button>
+    <button>Buton "noi suntem copii orfani"</button>
+    <p class="engleza"> Own books built put <span class="highlight">fully blind</span> civil  fanny. Projection appearance at of admiration no. As he totally cousins warrant besides ashamed do. Therefore by applauded acuteness supported affection it. Except had sex limits county enough the figure former add. Do sang my he next mr soon. It merely waited do unable.</p>
+    <p class="latina">Ingenio sap neutrum acquiri agnosco uti <span class="highlight">pro rum</span> reliqua nostris. Machinae ex generali ageretur in nonnihil. Vim concipio credendi pro obturabo eos sum. Probari liquida dominum allatae ubi sae. Religio cum eae sopitum ignosci timenda ipsarum. Mo idem isti mens apti re to ad. Cognosco de id dedissem aliasque momentum immorari exhibere. Sub tum hoc avocabo equidem columen. Tantas tum latere utiles lor noluit iis cumque. At nullis sumque namque at figura si bitavi.</p>
+    <p class="italiana">Ai sapro sasso ah fu no grana amate. Dodici dir meglio eterno ama questa sedete fresca. Apriro ci starne eterne lo salivo so. Eri poi nostra poteva hai trarlo quanto mio ciglia. Trapassato sul noi turbamento incontrati par avvelenate interrotta convertira. Dodici studio amo voi pei riposi che.</p>
+    
+</body>
+</html>
+/* CSS */
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+h1 {
+    font-size: 50px;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 30px;
+    color:blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+body {
+    background-color:rgb(225, 214, 198);
+}
+.engleza {
+    background-color: blue;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+.latina {
+    background-color: rgb(131, 30, 12);
+    font-style: bold;
+    font-size: 25px;
+}
+.highlight {
+    background-color: rgb(94, 224, 105);
+    text-align: center;
+    text-decoration: dotted;
+}
+/* CSS */
+.button-25 {
+  background-color: #36A9AE;
+  background-image: linear-gradient(#37ADB2, #329CA0);
+  border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: -apple-system,".SFNSDisplay-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  line-height: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-25:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: .15s, .15s;
+}
+
+.button-25:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+
+.button-25:disabled {
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+.button-25:disabled:active {
+  pointer-events: none;
+}
+
+.button-25:disabled:hover {
+  box-shadow: none;
+}
